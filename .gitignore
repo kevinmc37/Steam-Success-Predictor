@@ -1,0 +1,24 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos temporales de Jupyter y Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# DATASETS Y ARCHIVOS PESADOS
+# Excluimos games.csv y cualquier dataset pesado
+games.csv
+*.csv
+*.xlsx
+*.parquet
+
+# Carpetas de datos pesados
+data/
+
+# IDE y configuración del sistema
+.vscode/
+.idea/
+.DS_Store
